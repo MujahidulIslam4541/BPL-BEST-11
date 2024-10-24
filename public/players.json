@@ -1,0 +1,122 @@
+[
+    {
+        "image": "https://i.ibb.co.com/dP0xrt7/2.webp",
+        "playerId": 1,
+        "name": "Virat Kohli",
+        "country": "India",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm medium",
+        "biddingPrice": "1.5M"
+    },
+    {
+        "image": "https://i.ibb.co.com/hgkSfZx/Joe-Root-Eyes-Record-Breaking-Performance-vs-Sri-Lanka-jpg.webp",
+        "playerId": 2,
+        "name": "Joe Root",
+        "country": "England",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm offbreak",
+        "biddingPrice": "1.2M"
+    },
+    {
+        "image": "https://i.ibb.co.com/9ykrKyJ/steve-smith-07-03-2022.jpg",
+        "playerId": 3,
+        "name": "Steve Smith",
+        "country": "Australia",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm legbreak",
+        "biddingPrice": "1.8M"
+    },
+    {
+        "image": "https://i.ibb.co.com/5jqJzH8/Kane-Williamson-PA.webp",
+        "playerId": 4,
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm offbreak",
+        "biddingPrice": "1.4M"
+    },
+    {
+        "image": "https://i.ibb.co.com/cwvtj6t/9.webp",
+        "playerId": 5,
+        "name": "Jasprit Bumrah",
+        "country": "India",
+        "role": "Bowler",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm fast",
+        "biddingPrice": "1.6M"
+    },
+    {
+        "image": "https://i.ibb.co.com/RbmbTQg/33.webp",
+        "playerId": 6,
+        "name": "Pat Cummins",
+        "country": "Australia",
+        "role": "Bowler",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm fast",
+        "biddingPrice": "2.0M"
+    },
+    {
+        "image": "https://i.ibb.co.com/GfZd7FH/Nl-YXJja-GFwa-Swx-Nz-I3-Mjgz-MTk3-2-77349187.jpg",
+        "playerId": 7,
+        "name": "Ben Stokes",
+        "country": "England",
+        "role": "All-rounder",
+        "battingType": "Left-hand bat",
+        "bowlingType": "Right-arm fast-medium",
+        "biddingPrice": "2.1M"
+    },
+    {
+        "image": "https://i.ibb.co.com/S6x8sQz/did-hardik-pandya-have-anything-done-v0-y7gxm6q8inrc1.webp",
+        "playerId": 8,
+        "name": "Hardik Pandya",
+        "country": "India",
+        "role": "All-rounder",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm fast-medium",
+        "biddingPrice": "1.7M"
+    },
+    {
+        "image": "https://i.ibb.co.com/4d3LK4R/29e10f16-a387-4d03-af0b-4718f882de64.jpg",
+        "playerId": 9,
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "role": "Bowler",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm legbreak googly",
+        "biddingPrice": "1.3M"
+    },
+    {
+        "image": "https://i.ibb.co.com/ZmnnqL3/182.webp",
+        "playerId": 10,
+        "name": "Trent Boult",
+        "country": "New Zealand",
+        "role": "Bowler",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Left-arm fast-medium",
+        "biddingPrice": "1.5M"
+    },
+    {
+        "image": "https://i.ibb.co.com/G7L80Wv/quinton-de-kock.jpg",
+        "playerId": 11,
+        "name": "Quinton de Kock",
+        "country": "South Africa",
+        "role": "Wicketkeeper-batsman",
+        "battingType": "Left-hand bat",
+        "bowlingType": "N/A",
+        "biddingPrice": "1.9M"
+    },
+    {
+        "image": "https://i.ibb.co.com/BN422DD/Al-Hasan.jpg",
+        "playerId": 12,
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "role": "All-rounder",
+        "battingType": "Left-hand bat",
+        "bowlingType": "Left-arm orthodox",
+        "biddingPrice": "1.6M"
+    }
+]
