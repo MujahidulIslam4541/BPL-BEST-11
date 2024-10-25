@@ -1,3 +1,4 @@
+import AllComponents from "./Components/AllComponents/AllComponents"
 import Banner from "./Components/Banner"
 import Footer from "./Components/Footer"
 import Navbar from "./Components/Navbar"
@@ -16,6 +17,8 @@ function App() {
 
         {/* Banner section */}
         <Banner></Banner>
+    
+    <AllComponents></AllComponents>
       </section>
 
 

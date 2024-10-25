@@ -2,7 +2,7 @@
 
 export default function Footer() {
     return (
-        <div className="mt-96">
+        <div className="mt-72">
 
             <div className="border-2 w-11/12 mx-auto p-2 rounded-3xl bg-white absolute z-10 -mt-40 md:ml-12">
                 <div
