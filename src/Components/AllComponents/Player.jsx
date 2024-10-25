@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 
 
-export default function Player({ player }) {
+export default function Player({ player,handleSelectedPlayer }) {
     const { image, name, country, role, battingType, bowlingType, biddingPrice } = player
     return (
         <div className="md:grid md:grid-cols-1 bg-slate-100 border-2 p-4 rounded-lg">
@@ -13,12 +13,16 @@ export default function Player({ player }) {
                 <button className="btn">{role}</button>
             </div>
             <h2 className="text-xl font-bold">Rating</h2>
-            <div className="grid grid-cols-2 gap-2 mt-2">
+
+            <div className="flex justify-between my-2">
                 <h4 className="font-bold">{battingType}</h4>
                 <h4>{bowlingType}</h4>
-                <h2 className="font-bold">Price: {biddingPrice}$</h2>
-                <button>Choose Player</button>
             </div>
+            <div className="flex justify-between items-center">
+                <h2 className="font-bold">Price: {biddingPrice}$</h2>
+                <button onClick={()=>handleSelectedPlayer(player)} className="btn">Choose Player</button>
+            </div>
+
         </div>
     )
 }

@@ -7,7 +7,7 @@
         "role": "Batsman",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm medium",
-        "biddingPrice": "1.5M"
+        "biddingPrice":150000
     },
     {
         "image": "https://i.ibb.co.com/hgkSfZx/Joe-Root-Eyes-Record-Breaking-Performance-vs-Sri-Lanka-jpg.webp",
@@ -17,7 +17,7 @@
         "role": "Batsman",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm offbreak",
-        "biddingPrice": "1.2M"
+        "biddingPrice": 180000
     },
     {
         "image": "https://i.ibb.co.com/9ykrKyJ/steve-smith-07-03-2022.jpg",
@@ -27,7 +27,7 @@
         "role": "Batsman",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm legbreak",
-        "biddingPrice": "1.8M"
+        "biddingPrice": 200000
     },
     {
         "image": "https://i.ibb.co.com/5jqJzH8/Kane-Williamson-PA.webp",
@@ -37,7 +37,7 @@
         "role": "Batsman",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm offbreak",
-        "biddingPrice": "1.4M"
+        "biddingPrice": 140000
     },
     {
         "image": "https://i.ibb.co.com/cwvtj6t/9.webp",
@@ -47,7 +47,7 @@
         "role": "Bowler",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm fast",
-        "biddingPrice": "1.6M"
+        "biddingPrice": 160000
     },
     {
         "image": "https://i.ibb.co.com/RbmbTQg/33.webp",
@@ -57,7 +57,7 @@
         "role": "Bowler",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm fast",
-        "biddingPrice": "2.0M"
+        "biddingPrice": 200000
     },
     {
         "image": "https://i.ibb.co.com/GfZd7FH/Nl-YXJja-GFwa-Swx-Nz-I3-Mjgz-MTk3-2-77349187.jpg",
@@ -67,7 +67,7 @@
         "role": "All-rounder",
         "battingType": "Left-hand bat",
         "bowlingType": "Right-arm fast-medium",
-        "biddingPrice": "2.1M"
+        "biddingPrice": 210000
     },
     {
         "image": "https://i.ibb.co.com/S6x8sQz/did-hardik-pandya-have-anything-done-v0-y7gxm6q8inrc1.webp",
@@ -77,7 +77,7 @@
         "role": "All-rounder",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm fast-medium",
-        "biddingPrice": "1.7M"
+        "biddingPrice": 220000
     },
     {
         "image": "https://i.ibb.co.com/4d3LK4R/29e10f16-a387-4d03-af0b-4718f882de64.jpg",
@@ -87,7 +87,7 @@
         "role": "Bowler",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm legbreak googly",
-        "biddingPrice": "1.3M"
+        "biddingPrice": 160000
     },
     {
         "image": "https://i.ibb.co.com/ZmnnqL3/182.webp",
@@ -97,7 +97,7 @@
         "role": "Bowler",
         "battingType": "Right-hand bat",
         "bowlingType": "Left-arm fast-medium",
-        "biddingPrice": "1.5M"
+        "biddingPrice": 120000
     },
     {
         "image": "https://i.ibb.co.com/G7L80Wv/quinton-de-kock.jpg",
@@ -107,7 +107,7 @@
         "role": "Wicketkeeper-batsman",
         "battingType": "Left-hand bat",
         "bowlingType": "N/A",
-        "biddingPrice": "1.9M"
+        "biddingPrice": 140000
     },
     {
         "image": "https://i.ibb.co.com/BN422DD/Al-Hasan.jpg",
@@ -117,6 +117,6 @@
         "role": "All-rounder",
         "battingType": "Left-hand bat",
         "bowlingType": "Left-arm orthodox",
-        "biddingPrice": "1.6M"
+        "biddingPrice": 190000
     }
 ]
