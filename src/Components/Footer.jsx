@@ -8,7 +8,7 @@ export default function Footer() {
                 <div
                     className="hero py-10 rounded-3xl "
                     style={{
-                        backgroundImage: "url('/public/bg-shadow.png')",
+                        backgroundImage: "url('https://i.ibb.co.com/X28VYJs/bg-shadow.png')",
                     }}>
                     <div className=""></div>
                     <div className="hero-content  text-center ">
@@ -28,7 +28,7 @@ export default function Footer() {
 
 
             <div className=" bg-[#06091A] text-white px-16 pt-40 relative ">
-            <div className="flex justify-center mb-10"><img src="/public/logo-footer.png" alt=""/></div>
+            <div className="flex justify-center mb-10"><img src="https://i.ibb.co.com/pztGfHD/logo-footer.png" alt=""/></div>
                 <footer className="footer text-gray-300 mb-8">
                     <nav>
                         <h6 className="text-white font-bold">About Us</h6>

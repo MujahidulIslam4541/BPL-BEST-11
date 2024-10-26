@@ -7,11 +7,13 @@ export default function Selected({ selectedPlayers, handleRemove }) {
         <div>
             <h1 className="text-xl font-bold">Selected Players({selectedPlayers.length}/6)</h1>
 
+
             {
                 selectedPlayers.map((playerData, idx) => <SelectPlayer
                     key={idx}
                     playerData={playerData}
                     handleRemove={handleRemove}
+                    selectedPlayers={selectedPlayers}
                 ></SelectPlayer>)
             }
 

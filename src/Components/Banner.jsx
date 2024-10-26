@@ -1,12 +1,15 @@
+/* eslint-disable react/prop-types */
 
 
-export default function Banner() {
+
+export default function Banner({handleButtonAddedCoin}) {
+  
     return (
         <div>
             <div
                 className="hero min-h-[85vh] bg-black rounded-3xl"
                 style={{
-                    backgroundImage: "url('/public/bg-shadow.png')",
+                    backgroundImage: "url('https://i.ibb.co.com/X28VYJs/bg-shadow.png')",
                 }}>
                 <div className="rounded-3xl"></div>
                 <div className="hero-content text-white text-center">
@@ -18,11 +21,10 @@ export default function Banner() {
                         <p className="mb-5 ">
                             Beyond Boundaries Beyond Limits
                         </p>
-                        <button className="btn bg-yellow-300 border-none  font-semibold">Claim Free Credit</button>
+                        <button onClick={handleButtonAddedCoin} className="btn bg-yellow-300 border-none  font-semibold">Claim Free Credit</button>
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }

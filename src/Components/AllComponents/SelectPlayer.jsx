@@ -6,7 +6,7 @@ export default function SelectPlayer({ playerData ,handleRemove}) {
     return (
         <div className="border mt-4 rounded-lg px-4 py-2 items-center flex justify-between shadow-sm">
             <div className="flex gap-4">
-                <h2 className="">{image}</h2>
+                <img className="w-12 rounded-md" src={image} alt="" />
                 <div>
                     <h3 className="text-xl font-bold">{name}</h3>
                     <p className="text-gray-500">{battingType}</p>

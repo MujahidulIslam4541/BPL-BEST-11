@@ -7,6 +7,29 @@ import Navbar from "./Components/Navbar"
 
 function App() {
 
+
+
+
+  // set coin in navbar
+  const [price, setPrice] = useState(0)
+
+  const handleButtonAddedCoin = () => {
+    const coinAdded = 6000000;
+    setPrice(coinAdded)
+  }
+
+  const handleIncisePrice = (dolor) => {
+
+    if (dolor > price) {
+      alert('player is not for available price')
+    }
+    else {
+      setPrice(price - dolor)
+    }
+
+
+  }
+
   // Added selected players
   const [selectedPlayers, setSelectedPlayers] = useState([])
 
@@ -14,6 +37,7 @@ function App() {
 
     const isExist = selectedPlayers.find(selectPlayer => selectPlayer.playerId === player.playerId)
     if (!isExist) {
+      handleIncisePrice(player.biddingPrice)
       setSelectedPlayers([...selectedPlayers, player])
     }
     else {
@@ -66,10 +90,10 @@ function App() {
 
       <section className="w-11/12 mx-auto">
         {/* Navbar section */}
-        <Navbar></Navbar>
+        <Navbar price={price}></Navbar>
 
         {/* Banner section */}
-        <Banner></Banner>
+        <Banner handleButtonAddedCoin={handleButtonAddedCoin}></Banner>
 
         <AllComponents
           handleSelectedPlayer={handleSelectedPlayer}
