@@ -2,7 +2,7 @@
 import SelectPlayer from "./SelectPlayer";
 
 
-export default function Selected({ selectedPlayers, handleRemove }) {
+export default function Selected({ selectedPlayers, handleRemove, isActive, handleIsActive }) {
     return (
         <div>
             <h1 className="text-xl font-bold">Selected Players({selectedPlayers.length}/6)</h1>
@@ -13,11 +13,10 @@ export default function Selected({ selectedPlayers, handleRemove }) {
                     key={idx}
                     playerData={playerData}
                     handleRemove={handleRemove}
-                    selectedPlayers={selectedPlayers}
                 ></SelectPlayer>)
             }
 
-            <button className=" bg-yellow-400 p-2 rounded-md border-none mt-4 font-bold">Add More Player</button>
+            <button className={`${isActive.cart ? 'btn mt-4' : 'btn bg-yellow-300 mt-4'}`} onClick={() => handleIsActive('Available')}>Add More players</button>
         </div>
     )
 }

@@ -29,14 +29,14 @@ export default function AllComponents({ handleIsActive, isActive,handleSelectedP
             
             <div>
                 <h2 className="text-xl font-bold">Available Players</h2>
-                <div className="md:grid md:grid-cols-3 gap-4 mt-10">
+                <div className="md:grid md:grid-cols-3 flex flex-col gap-4 mt-10">
                 {
                     AllComponents.map(player => <Player key='playerId' handleSelectedPlayer={handleSelectedPlayer} player={player}></Player>)
                 }
             </div>
             </div > : 
 
-            <Selected  selectedPlayers={selectedPlayers} handleRemove={handleRemove}></Selected>}
+            <Selected isActive={isActive}  handleIsActive={handleIsActive} selectedPlayers={selectedPlayers} handleRemove={handleRemove}></Selected>}
         </div>
     )
 }
